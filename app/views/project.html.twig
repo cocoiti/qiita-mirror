@@ -1,0 +1,9 @@
+{% extends "base.html.twig" %}
+{% block contents %}
+<div id="content"></div>
+
+<script>
+  document.getElementById('content').innerHTML = marked({{ project.body|json_encode|raw }});
+</script>
+
+{% endblock contents %}

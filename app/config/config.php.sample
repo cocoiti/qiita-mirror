@@ -1,0 +1,8 @@
+<?php
+
+$config = [
+    "qiita_url" => "https://your_teamname.qiita.com",
+    "backup_path" => BASE_DIR . "/data/",
+    "qiita_access_token" => "YOUR TOKEN",
+];
+

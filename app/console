@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+set_time_limit(0);
+
+$app = require_once __DIR__.'/config/bootstrap.php';
+
+use Cocoiti\QiitaMirror\Command\DumpCommand;
+
+
+$console = $app['console'];
+$console->add(new DumpCommand());
+$console->run();

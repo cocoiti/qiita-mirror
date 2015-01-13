@@ -1,0 +1,3 @@
+[submodule "app/assets/vendor/marked"]
+	path = app/assets/vendor/marked
+	url = git@github.com:chjj/marked.git

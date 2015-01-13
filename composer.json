@@ -1,0 +1,12 @@
+{
+  "require": {
+    "cocoiti/qiita-php": "dev-master",
+    "silex/silex": "1.2",
+    "twig/twig": "1.16.3",
+    "knplabs/console-service-provider": "dev-master"
+  },
+
+  "autoload": {
+    "psr-0": { "Cocoiti\\QiitaMirror\\": "src/" }
+  }
+}

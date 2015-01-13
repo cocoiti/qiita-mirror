@@ -1,0 +1,6 @@
+/composer.lock
+/Gemfile.lock
+/vendor
+/app/config/config.php
+.sass-cache
+/data/*/*.json
