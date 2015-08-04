@@ -6,7 +6,7 @@ simple qiita-team-mirror site
 ```
 composer install
 cd app/config/
-cp config.php.sqmple config.php
+cp config.php.sample config.php
 vi config.php
 
 cd ../../
